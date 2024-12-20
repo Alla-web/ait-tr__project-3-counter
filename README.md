@@ -1,21 +1,39 @@
-# Проект 3 "Counter"
+# Simple JavaScript Counter
 
-## Репозиторий проекта:
+## Overview
+A minimalistic web-based counter application built with vanilla JavaScript, HTML, and CSS.
 
-[Counter](https://github.com/Alla-web/ait-tr__project-3-counter)
+## Features
+- Increment counter by +1
+- Decrement counter by -1
+- Reset counter to 0
+- Simple and clean user interface
 
-## Участники команды:
+## Technologies Used
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+## How to Use
+1. Clone the repository
+2. Open `index.html` in your web browser
+3. Use buttons to interact with the counter:
+   - Click "-1" to decrease the counter
+   - Click "+1" to increase the counter
+   - Click "Reset" to set counter back to 0
+
+## Installation
+No special installation required. Just open the `index.html` file in a modern web browser.
+
+## Project Structure
+- `src/index.html`: Main HTML structure
+- `src/index.js`: JavaScript logic for counter functionality
+- `src/index.css`: Styling for the counter application
+
+## Contributions
+Feel free to fork and improve the project. Pull requests are welcome!
 
 - [Maksym Stoianov](https://github.com/MaksymStoianov)
 
-## Преподаватель:
-
-- [Ekaterina Zavertyaeva](https://github.com/)
-
-## Техническое задание:
-
-1. В каждой группе выберете тим лида. Тим лид должен создать **public репозиторий**, добавить в **collaborators** участников его группы, все должны клонировать репозиторий.
-2. Каждая группа должна создать приложение "Counter". Счётчик, который содержит блок результата и две кнопки, для увеличения числа счётчика на 1 и для уменьшения числа счётчика на 1. Начальное значение - 0.
-3. Тим лид должен раздать задания по проекту каждому из участников.
-4. Каждый участник в команде, должен сделать ответвление от главной ветки `main` и работать в ней. Когда код будет дописан, нужно залить код в удаленный репозиторий **GitHub** и сделать **pull request** с вашей удаленной ветки в ветку `main`. Затем нужно скинуть ссылку тим лиду, чтобы он сделал **code review**.
-5. Если **code review** пройден, замечаний и конфликтов при слиянии веток нету, то тим лид делает `merge` веток.
+## License
+MIT License
