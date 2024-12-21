@@ -33,5 +33,7 @@ No special installation required. Just open the `index.html` file in a modern we
 ## Contributions
 Feel free to fork and improve the project. Pull requests are welcome!
 
+- [Maksym Stoianov](https://github.com/MaksymStoianov)
+
 ## License
 MIT License

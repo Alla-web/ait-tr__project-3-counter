@@ -1,36 +1,34 @@
 // создание счетчика
-const resultDiv = document.querySelector(".result");
-const decreaseButton = document.getElementById("decrease-button");
-const increaseButton = document.getElementById("increase-button");
+const resultDiv = document.querySelectorAll(".result")
+const decreaseButton = document.getElementById("decrease-button")
+const increaseButton = document.getElementById("increase-button")
 
 // инициализация счетчика
-let counter = 0;
+let counter = 0
 
 // функция обновления счетчика
 function updateCounter() {
-  resultDiv.textContent = counter;
+	[...resultDiv].forEach(el => (el.textContent = counter))
 }
 
 // обработчики событий для уменьшения счетчика
 decreaseButton.addEventListener("click", () => {
-  counter--;
-  updateCounter();
-});
+	counter--
+	updateCounter()
+})
 
 // обработчики событий для увеличения счетчика
 increaseButton.addEventListener("click", () => {
-  counter++;
-  updateCounter();
-});
+	counter++
+	updateCounter()
+})
 
 // обновление счетчика при загрузке страницы
-updateCounter();
+updateCounter()
 
 // кнопка сброса счетчика
-const resetButton = document.getElementById("reset-button");
+const resetButton = document.getElementById("reset-button")
 resetButton.addEventListener("click", () => {
-  counter = 0;
-  updateCounter();
-});
-
-
+	counter = 0
+	updateCounter()
+})
